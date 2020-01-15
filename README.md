@@ -2,6 +2,11 @@
 
 A simple debian based nginx with `certbot` and `python-certbot-nginx` installed.
 
+```bash
+docker pull amritb/nginx-certbot-warm
+```
+
+
 #### Usage
 With correct volume mounts, a script like this is enough to create and renew certs automatically:
 
